@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		204F6F212BDAE97D00FC3D09 /* Roman2NepaliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F6F202BDAE97D00FC3D09 /* Roman2NepaliApp.swift */; };
+		204F6F232BDAE97D00FC3D09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F6F222BDAE97D00FC3D09 /* ContentView.swift */; };
+		204F6F252BDAE97F00FC3D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204F6F242BDAE97F00FC3D09 /* Assets.xcassets */; };
+		204F6F282BDAE97F00FC3D09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204F6F272BDAE97F00FC3D09 /* Preview Assets.xcassets */; };
+		204F6F322BDAE97F00FC3D09 /* Roman2NepaliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F6F312BDAE97F00FC3D09 /* Roman2NepaliTests.swift */; };
+		204F6F3C2BDAE97F00FC3D09 /* Roman2NepaliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F6F3B2BDAE97F00FC3D09 /* Roman2NepaliUITests.swift */; };
+		204F6F3E2BDAE97F00FC3D09 /* Roman2NepaliUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F6F3D2BDAE97F00FC3D09 /* Roman2NepaliUITestsLaunchTests.swift */; };
+		204F6F4C2BDAEA0B00FC3D09 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F6F4B2BDAEA0B00FC3D09 /* WelcomeView.swift */; };
+		204F6F4E2BDB028D00FC3D09 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F6F4D2BDB028D00FC3D09 /* HomeView.swift */; };
+		204F6F902BF3729200FC3D09 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F6F8F2BF3729200FC3D09 /* HelpView.swift */; };
+		20EE2BDE2BF5485300384BAB /* RomanToNepaliViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EE2BDD2BF5485300384BAB /* RomanToNepaliViewModel.swift */; };
+		20EE2BE12BF54BDE00384BAB /* CommonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EE2BE02BF54BDE00384BAB /* CommonButton.swift */; };
+		20EE2BE32BF54C2100384BAB /* CommonTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EE2BE22BF54C2100384BAB /* CommonTextField.swift */; };
+		20EE2BE62BF551DA00384BAB /* RomanToNepaliMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EE2BE52BF551DA00384BAB /* RomanToNepaliMapping.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		204F6F2E2BDAE97F00FC3D09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 204F6F152BDAE97D00FC3D09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 204F6F1C2BDAE97D00FC3D09;
+			remoteInfo = Roman2Nepali;
+		};
+		204F6F382BDAE97F00FC3D09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 204F6F152BDAE97D00FC3D09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 204F6F1C2BDAE97D00FC3D09;
+			remoteInfo = Roman2Nepali;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		204F6F1D2BDAE97D00FC3D09 /* Roman2Nepali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roman2Nepali.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		204F6F202BDAE97D00FC3D09 /* Roman2NepaliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roman2NepaliApp.swift; sourceTree = "<group>"; };
+		204F6F222BDAE97D00FC3D09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		204F6F242BDAE97F00FC3D09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		204F6F272BDAE97F00FC3D09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		204F6F2D2BDAE97F00FC3D09 /* Roman2NepaliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Roman2NepaliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		204F6F312BDAE97F00FC3D09 /* Roman2NepaliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roman2NepaliTests.swift; sourceTree = "<group>"; };
+		204F6F372BDAE97F00FC3D09 /* Roman2NepaliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Roman2NepaliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		204F6F3B2BDAE97F00FC3D09 /* Roman2NepaliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roman2NepaliUITests.swift; sourceTree = "<group>"; };
+		204F6F3D2BDAE97F00FC3D09 /* Roman2NepaliUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roman2NepaliUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		204F6F4B2BDAEA0B00FC3D09 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		204F6F4D2BDB028D00FC3D09 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		204F6F8F2BF3729200FC3D09 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		20EE2BDD2BF5485300384BAB /* RomanToNepaliViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToNepaliViewModel.swift; sourceTree = "<group>"; };
+		20EE2BE02BF54BDE00384BAB /* CommonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButton.swift; sourceTree = "<group>"; };
+		20EE2BE22BF54C2100384BAB /* CommonTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTextField.swift; sourceTree = "<group>"; };
+		20EE2BE52BF551DA00384BAB /* RomanToNepaliMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToNepaliMapping.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		204F6F1A2BDAE97D00FC3D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204F6F2A2BDAE97F00FC3D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204F6F342BDAE97F00FC3D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		204F6F142BDAE97D00FC3D09 = {
+			isa = PBXGroup;
+			children = (
+				204F6F1F2BDAE97D00FC3D09 /* Roman2Nepali */,
+				204F6F302BDAE97F00FC3D09 /* Roman2NepaliTests */,
+				204F6F3A2BDAE97F00FC3D09 /* Roman2NepaliUITests */,
+				204F6F1E2BDAE97D00FC3D09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		204F6F1E2BDAE97D00FC3D09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				204F6F1D2BDAE97D00FC3D09 /* Roman2Nepali.app */,
+				204F6F2D2BDAE97F00FC3D09 /* Roman2NepaliTests.xctest */,
+				204F6F372BDAE97F00FC3D09 /* Roman2NepaliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		204F6F1F2BDAE97D00FC3D09 /* Roman2Nepali */ = {
+			isa = PBXGroup;
+			children = (
+				20EE2BE42BF551BB00384BAB /* Utils */,
+				20EE2BDF2BF54BC600384BAB /* Common */,
+				20EE2BDA2BF4F4E000384BAB /* ViewModel */,
+				204F6F4A2BDAEA0100FC3D09 /* View */,
+				204F6F202BDAE97D00FC3D09 /* Roman2NepaliApp.swift */,
+				204F6F222BDAE97D00FC3D09 /* ContentView.swift */,
+				204F6F242BDAE97F00FC3D09 /* Assets.xcassets */,
+				204F6F262BDAE97F00FC3D09 /* Preview Content */,
+			);
+			path = Roman2Nepali;
+			sourceTree = "<group>";
+		};
+		204F6F262BDAE97F00FC3D09 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				204F6F272BDAE97F00FC3D09 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		204F6F302BDAE97F00FC3D09 /* Roman2NepaliTests */ = {
+			isa = PBXGroup;
+			children = (
+				204F6F312BDAE97F00FC3D09 /* Roman2NepaliTests.swift */,
+			);
+			path = Roman2NepaliTests;
+			sourceTree = "<group>";
+		};
+		204F6F3A2BDAE97F00FC3D09 /* Roman2NepaliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				204F6F3B2BDAE97F00FC3D09 /* Roman2NepaliUITests.swift */,
+				204F6F3D2BDAE97F00FC3D09 /* Roman2NepaliUITestsLaunchTests.swift */,
+			);
+			path = Roman2NepaliUITests;
+			sourceTree = "<group>";
+		};
+		204F6F4A2BDAEA0100FC3D09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				204F6F4B2BDAEA0B00FC3D09 /* WelcomeView.swift */,
+				204F6F4D2BDB028D00FC3D09 /* HomeView.swift */,
+				204F6F8F2BF3729200FC3D09 /* HelpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20EE2BDA2BF4F4E000384BAB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				20EE2BDD2BF5485300384BAB /* RomanToNepaliViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		20EE2BDF2BF54BC600384BAB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				20EE2BE02BF54BDE00384BAB /* CommonButton.swift */,
+				20EE2BE22BF54C2100384BAB /* CommonTextField.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		20EE2BE42BF551BB00384BAB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				20EE2BE52BF551DA00384BAB /* RomanToNepaliMapping.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		204F6F1C2BDAE97D00FC3D09 /* Roman2Nepali */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204F6F412BDAE97F00FC3D09 /* Build configuration list for PBXNativeTarget "Roman2Nepali" */;
+			buildPhases = (
+				204F6F192BDAE97D00FC3D09 /* Sources */,
+				204F6F1A2BDAE97D00FC3D09 /* Frameworks */,
+				204F6F1B2BDAE97D00FC3D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roman2Nepali;
+			productName = Roman2Nepali;
+			productReference = 204F6F1D2BDAE97D00FC3D09 /* Roman2Nepali.app */;
+			productType = "com.apple.product-type.application";
+		};
+		204F6F2C2BDAE97F00FC3D09 /* Roman2NepaliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204F6F442BDAE97F00FC3D09 /* Build configuration list for PBXNativeTarget "Roman2NepaliTests" */;
+			buildPhases = (
+				204F6F292BDAE97F00FC3D09 /* Sources */,
+				204F6F2A2BDAE97F00FC3D09 /* Frameworks */,
+				204F6F2B2BDAE97F00FC3D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				204F6F2F2BDAE97F00FC3D09 /* PBXTargetDependency */,
+			);
+			name = Roman2NepaliTests;
+			productName = Roman2NepaliTests;
+			productReference = 204F6F2D2BDAE97F00FC3D09 /* Roman2NepaliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		204F6F362BDAE97F00FC3D09 /* Roman2NepaliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204F6F472BDAE97F00FC3D09 /* Build configuration list for PBXNativeTarget "Roman2NepaliUITests" */;
+			buildPhases = (
+				204F6F332BDAE97F00FC3D09 /* Sources */,
+				204F6F342BDAE97F00FC3D09 /* Frameworks */,
+				204F6F352BDAE97F00FC3D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				204F6F392BDAE97F00FC3D09 /* PBXTargetDependency */,
+			);
+			name = Roman2NepaliUITests;
+			productName = Roman2NepaliUITests;
+			productReference = 204F6F372BDAE97F00FC3D09 /* Roman2NepaliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		204F6F152BDAE97D00FC3D09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					204F6F1C2BDAE97D00FC3D09 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					204F6F2C2BDAE97F00FC3D09 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 204F6F1C2BDAE97D00FC3D09;
+					};
+					204F6F362BDAE97F00FC3D09 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 204F6F1C2BDAE97D00FC3D09;
+					};
+				};
+			};
+			buildConfigurationList = 204F6F182BDAE97D00FC3D09 /* Build configuration list for PBXProject "Roman2Nepali" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 204F6F142BDAE97D00FC3D09;
+			productRefGroup = 204F6F1E2BDAE97D00FC3D09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				204F6F1C2BDAE97D00FC3D09 /* Roman2Nepali */,
+				204F6F2C2BDAE97F00FC3D09 /* Roman2NepaliTests */,
+				204F6F362BDAE97F00FC3D09 /* Roman2NepaliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		204F6F1B2BDAE97D00FC3D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204F6F282BDAE97F00FC3D09 /* Preview Assets.xcassets in Resources */,
+				204F6F252BDAE97F00FC3D09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204F6F2B2BDAE97F00FC3D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204F6F352BDAE97F00FC3D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		204F6F192BDAE97D00FC3D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204F6F232BDAE97D00FC3D09 /* ContentView.swift in Sources */,
+				204F6F4E2BDB028D00FC3D09 /* HomeView.swift in Sources */,
+				204F6F902BF3729200FC3D09 /* HelpView.swift in Sources */,
+				20EE2BDE2BF5485300384BAB /* RomanToNepaliViewModel.swift in Sources */,
+				20EE2BE12BF54BDE00384BAB /* CommonButton.swift in Sources */,
+				20EE2BE62BF551DA00384BAB /* RomanToNepaliMapping.swift in Sources */,
+				204F6F4C2BDAEA0B00FC3D09 /* WelcomeView.swift in Sources */,
+				20EE2BE32BF54C2100384BAB /* CommonTextField.swift in Sources */,
+				204F6F212BDAE97D00FC3D09 /* Roman2NepaliApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204F6F292BDAE97F00FC3D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204F6F322BDAE97F00FC3D09 /* Roman2NepaliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204F6F332BDAE97F00FC3D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204F6F3E2BDAE97F00FC3D09 /* Roman2NepaliUITestsLaunchTests.swift in Sources */,
+				204F6F3C2BDAE97F00FC3D09 /* Roman2NepaliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		204F6F2F2BDAE97F00FC3D09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 204F6F1C2BDAE97D00FC3D09 /* Roman2Nepali */;
+			targetProxy = 204F6F2E2BDAE97F00FC3D09 /* PBXContainerItemProxy */;
+		};
+		204F6F392BDAE97F00FC3D09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 204F6F1C2BDAE97D00FC3D09 /* Roman2Nepali */;
+			targetProxy = 204F6F382BDAE97F00FC3D09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		204F6F3F2BDAE97F00FC3D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		204F6F402BDAE97F00FC3D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		204F6F422BDAE97F00FC3D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Roman2Nepali/Preview Content\"";
+				DEVELOPMENT_TEAM = 634CART2HM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KRy.Roman2Nepali;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		204F6F432BDAE97F00FC3D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Roman2Nepali/Preview Content\"";
+				DEVELOPMENT_TEAM = 634CART2HM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KRy.Roman2Nepali;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		204F6F452BDAE97F00FC3D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 634CART2HM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KRy.Roman2NepaliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roman2Nepali.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Roman2Nepali";
+			};
+			name = Debug;
+		};
+		204F6F462BDAE97F00FC3D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 634CART2HM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KRy.Roman2NepaliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roman2Nepali.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Roman2Nepali";
+			};
+			name = Release;
+		};
+		204F6F482BDAE97F00FC3D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 634CART2HM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KRy.Roman2NepaliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Roman2Nepali;
+			};
+			name = Debug;
+		};
+		204F6F492BDAE97F00FC3D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 634CART2HM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KRy.Roman2NepaliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Roman2Nepali;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		204F6F182BDAE97D00FC3D09 /* Build configuration list for PBXProject "Roman2Nepali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204F6F3F2BDAE97F00FC3D09 /* Debug */,
+				204F6F402BDAE97F00FC3D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204F6F412BDAE97F00FC3D09 /* Build configuration list for PBXNativeTarget "Roman2Nepali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204F6F422BDAE97F00FC3D09 /* Debug */,
+				204F6F432BDAE97F00FC3D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204F6F442BDAE97F00FC3D09 /* Build configuration list for PBXNativeTarget "Roman2NepaliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204F6F452BDAE97F00FC3D09 /* Debug */,
+				204F6F462BDAE97F00FC3D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204F6F472BDAE97F00FC3D09 /* Build configuration list for PBXNativeTarget "Roman2NepaliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204F6F482BDAE97F00FC3D09 /* Debug */,
+				204F6F492BDAE97F00FC3D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 204F6F152BDAE97D00FC3D09 /* Project object */;
+}
