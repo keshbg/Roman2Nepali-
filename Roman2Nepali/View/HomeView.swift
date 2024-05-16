@@ -33,6 +33,7 @@ struct HomeView: View {
                     .bold()
                 
                 CustomTextField(text: $viewModel.nepaliText, placeholder: "")
+                    .disabled(true)
                     
                 HStack {
                     Spacer()
